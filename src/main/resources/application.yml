@@ -17,3 +17,8 @@ logging:
     org:
       springframework:
         security: DEBUG+
+
+jwt:
+  secret: YQ7N3TpCRs+BEO2Zd5GxH/yVvjDA7wdFZj4eEzDI5iQ=
+  expiration: 3600000 # 1 hour
+  refresh-token.expiration: 604800000 # 7 days

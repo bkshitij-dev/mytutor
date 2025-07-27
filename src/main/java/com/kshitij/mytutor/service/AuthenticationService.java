@@ -16,8 +16,6 @@ public interface AuthenticationService {
 
     User register(RegisterRequest request) throws Exception;
 
-    AuthResponse login(LoginRequest request);
-
     Optional<User> findByUsernameOrEmail(String username, String email);
 
 }
