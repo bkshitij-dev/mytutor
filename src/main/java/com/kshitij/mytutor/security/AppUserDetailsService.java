@@ -1,4 +1,4 @@
-package com.kshitij.mytutor.config;
+package com.kshitij.mytutor.security;
 
 import com.kshitij.mytutor.model.User;
 import com.kshitij.mytutor.service.AuthenticationService;
